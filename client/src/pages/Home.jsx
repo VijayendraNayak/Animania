@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <div className='text-red-400 font-semibold text-xl'>Home</div>
   )
 }
