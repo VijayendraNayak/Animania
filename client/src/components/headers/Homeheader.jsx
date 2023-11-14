@@ -26,7 +26,7 @@ export const Homeheader = () => {
     }
   };
   return (
-    <div>
+    <div className="z-10">
       {sidebar && <Sidebar sidebar={sidebar} />}
       <div className="flex justify-between p-4 items-center">
         <div className="flex items-center gap-2">
@@ -101,3 +101,4 @@ export const Homeheader = () => {
     </div>
   );
 };
+ 

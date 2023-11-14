@@ -2,7 +2,7 @@ import React from "react";
 
 export const Sidebar = (props) => {
   return (
-    <div>
+    <div className="z-10">
       <div className="h-screen overflow-y-scroll w-60 bg-zinc-800 absolute ">
         <div className="flex flex-col gap-4 pt-7">
           <div className="text-2xl text-center font-semibold">Menu</div>
